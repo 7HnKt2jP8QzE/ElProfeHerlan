@@ -1,0 +1,146 @@
+
+
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+        <title>Planes y Pagos - Prof. Herlan</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+            .payment-section { margin: 40px 0; }
+            .payment-box { text-align: center; padding: 20px; border: 1px solid #3c4448; border-radius: 4px; }
+            .payment-disclaimer { font-size: 0.85em; color: #888; text-align: center; margin-top: 30px; }
+        </style>
+		<!-- ======================================================= -->
+        <!-- PARTE 1: SCRIPT GLOBAL DE PAYPAL (Solo una vez por página) -->
+        <!-- ======================================================= -->
+        <script src="https://www.paypal.com/sdk/js?client-id=BAAx8zitydvnUkVD3vMURqffpP9BvcdEz__rwW-J84nZPNgVmbFG5o5HTRu7gvkmrdMSBgyXMEwSFtgRP0&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+    </head>
+	
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">El Profe Herlan</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Inicio</a></li>
+							<li>
+								<a href="#">Servicios</a>
+								<ul>
+									<li><a href="left-sidebar.html">Alumnos Intermitentes</a></li>
+									<li><a href="right-sidebar.html">Alumnos Regulares</a></li>
+									<li><a href="no-sidebar.html">Curso de Photoshop</a></li>
+								</ul>
+							</li>
+							<li><a href="elements.html">Pagos</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>Planes y Pagos</h2>
+                       		 <p>Selecciona tu modalidad para proceder con el pago seguro.</p>
+						</header>
+
+					<!-- Sección de Pagos -->
+					<section class="payment-section">
+						<div class="row gtr-uniform">
+							
+							<!-- 1. Estudiantes Intermitentes -->
+							<div class="col-4 col-12-medium">
+								<div class="payment-box">
+									<h3>Intermitentes</h3>
+									<p>Sesiones puntuales orientadas a la resolución de dudas específicas.</p>
+									<div class="paypal-button-container">
+										<div id="paypal-container-VYC2PRVTS5P3N"></div>
+										<script>
+										paypal.HostedButtons({
+											hostedButtonId: "VYC2PRVTS5P3N",
+										}).render("#paypal-container-VYC2PRVTS5P3N")
+										</script>
+									</div>
+								</div>
+							</div>
+
+							<!-- 2. Estudiantes Regulares (Curso estructurado, máx 2 alumnos) -->
+							<div class="col-4 col-12-medium">
+								<div class="payment-box">
+									<h3>Regulares</h3>
+									<p>Curso de acompañamiento continuo con estructura semanal.</p>
+									<div class="paypal-button-container">
+										<div id="paypal-container-B4ASPLMS9TYRU"></div>
+										<script>
+										paypal.HostedButtons({
+											hostedButtonId: "B4ASPLMS9TYRU",
+										}).render("#paypal-container-B4ASPLMS9TYRU")
+										</script>
+									</div>
+								</div>
+							</div>
+
+							<!-- 3. Curso de Photoshop -->
+							<div class="col-4 col-12-medium">
+								<div class="payment-box">
+									<h3>Photoshop</h3>
+									<p>Aprendizaje técnico y creativo de retoque digital y flujos de trabajo.</p>
+									<div class="paypal-button-container">
+										<div id="paypal-container-JLFFNCM49LCVG"></div>
+										<script>
+										paypal.HostedButtons({
+											hostedButtonId: "JLFFNCM49LCVG",
+										}).render("#paypal-container-JLFFNCM49LCVG")
+										</script>
+									</div>
+								</div>
+							</div>
+							<p class="payment-disclaimer">
+								<i class="fa fa-lock"></i> Pago seguro procesado por PayPal. <strong>Tu información de tarjeta no es almacenada en este sitio.</strong>
+							</p>
+
+						</div>
+					</section>
+					
+					
+
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
